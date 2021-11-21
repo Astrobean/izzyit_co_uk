@@ -17,7 +17,7 @@ body {
   background: linear-gradient(to right, #0a0a10, rgba(10, 10, 16, 0.5)), url("fiber.b0bcfe2a.jpg");
   background-repeat: no-repeat;
   animation-name: move;
-  animation-duration: 120s;
+  animation-duration: 90s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
