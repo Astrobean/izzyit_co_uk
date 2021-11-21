@@ -43,9 +43,13 @@ body .divider {
   margin-bottom: 2rem;
 }
 
-body .introduction, body .cta {
+body .textbox {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 1.2rem;
+}
+
+body .textbox li {
+  font-weight: 600;
 }
 
 body .contact {
@@ -57,6 +61,25 @@ body .contact a {
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
+}
+
+body .contact a .mailbutton {
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  background-color: #d0920b;
+  border: none;
+  text-transform: uppercase;
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+
+body .contact a .mailbutton:hover {
+  background-color: #ffc342;
 }
 
 body .contact a:hover {
@@ -77,5 +100,6 @@ footer .copyright {
   margin-bottom: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=index.61b09d71.css.map */
