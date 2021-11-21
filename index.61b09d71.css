@@ -17,7 +17,7 @@ body {
   background: linear-gradient(to right, #0a0a10, rgba(10, 10, 16, 0.5)), url("fiber.b0bcfe2a.jpg");
   background-repeat: no-repeat;
   animation-name: move;
-  animation-duration: 90s;
+  animation-duration: 69s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -115,6 +115,12 @@ footer .copyright {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url(fiber-hires.34c37201.jpg);
   }
 }
 
