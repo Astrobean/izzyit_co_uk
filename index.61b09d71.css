@@ -6,6 +6,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.highlight {
+  color: rgba(255, 255, 255, 0.86);
+  font-weight: 600;
+}
+
 body {
   height: 100vh;
   width: 100%;
@@ -17,55 +22,60 @@ body {
 }
 
 body main {
-  max-width: 80%;
+  padding: 3rem;
+  max-width: 768px;
 }
 
-body main .subtitle {
+body .subtitle {
   color: rgba(255, 255, 255, 0.86);
   font-weight: 500;
 }
 
-body main .title {
+body .title {
   color: white;
   font-weight: 700;
 }
 
-body main .divider {
+body .divider {
   height: 0.5rem;
   width: 5rem;
   background-color: #ffb30f;
   margin-bottom: 2rem;
 }
 
-body main .introduction {
+body .introduction, body .cta {
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 1.2rem;
 }
 
-body main .contact {
+body .contact {
   color: rgba(255, 255, 255, 0.86);
 }
 
-body main .contact a {
+body .contact a {
   color: #d0920b;
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
 }
 
-body main .contact a:hover {
+body .contact a:hover {
   color: #ffc342;
 }
 
-body footer {
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
-body footer .copyright {
+footer .copyright {
   text-align: center;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 /*# sourceMappingURL=index.61b09d71.css.map */
