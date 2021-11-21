@@ -7,7 +7,7 @@ body {
 }
 
 .highlight {
-  color: rgba(255, 255, 255, 0.86);
+  color: white;
   font-weight: 600;
 }
 
@@ -16,9 +16,6 @@ body {
   width: 100%;
   background: linear-gradient(to right, #0a0a10, rgba(10, 10, 16, 0.5)), url("fiber.b0bcfe2a.jpg");
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 body main {
@@ -34,11 +31,12 @@ body .subtitle {
 body .title {
   color: white;
   font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 body .divider {
-  height: 0.5rem;
-  width: 5rem;
+  height: 0.25rem;
+  width: 3rem;
   background-color: #ffb30f;
   margin-bottom: 2rem;
 }
@@ -50,6 +48,7 @@ body .textbox {
 
 body .textbox li {
   font-weight: 600;
+  line-height: 1.3rem;
 }
 
 body .contact {
@@ -64,7 +63,7 @@ body .contact a {
 }
 
 body .contact a .mailbutton {
-  color: white;
+  color: rgba(255, 255, 255, 0.86);
   font-weight: 600;
   font-size: 1.125rem;
   letter-spacing: 1px;
@@ -79,11 +78,7 @@ body .contact a .mailbutton {
 }
 
 body .contact a .mailbutton:hover {
-  background-color: #ffc342;
-}
-
-body .contact a:hover {
-  color: #ffc342;
+  background-color: #ffb30f;
 }
 
 footer {
@@ -101,5 +96,21 @@ footer .copyright {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 /*# sourceMappingURL=index.61b09d71.css.map */
