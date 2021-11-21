@@ -90,23 +90,6 @@ body .contact .note {
   color: rgba(255, 255, 255, 0.6);
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-footer .copyright {
-  text-align: center;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 0;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 0.8rem;
-}
-
 @media screen and (max-width: 768px) {
   body {
     display: flex;
