@@ -17,8 +17,8 @@ body {
   background: linear-gradient(to right, #0a0a10, rgba(10, 10, 16, 0.5)), url("fiber.b0bcfe2a.jpg");
   background-repeat: no-repeat;
   animation-name: move;
-  animation-duration: 120s;
-  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-iteration-count: ease-in-out;
   animation-timing-function: linear;
 }
 
@@ -122,8 +122,11 @@ footer .copyright {
   0% {
     background-position: top;
   }
-  100% {
+  50% {
     background-position: bottom;
+  }
+  100% {
+    background-position: top;
   }
 }
 /*# sourceMappingURL=index.61b09d71.css.map */
