@@ -118,12 +118,6 @@ footer .copyright {
   }
 }
 
-@media screen and (min-width: 1440px) {
-  body {
-    background-image: url(fiber-hires.34c37201.jpg);
-  }
-}
-
 @keyframes move {
   0% {
     background-position: top;
